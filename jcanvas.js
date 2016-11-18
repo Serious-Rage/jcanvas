@@ -1,5 +1,5 @@
 /**
- * @license jCanvas v16.07.03
+ * @license jCanvas v16.11.17-beta.1
  * Copyright 2016 Caleb Evans
  * Released under the MIT license
  */
@@ -2280,6 +2280,9 @@ _createEvents( [
 	'touchstart',
 	'touchmove',
 	'touchend',
+	'pointerdown',
+	'pointermove',
+	'pointerup',
 	'contextmenu'
 ] );
 
